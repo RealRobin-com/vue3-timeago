@@ -1,5 +1,5 @@
 function formatToLongString (time, type) {
-  return ` ${time} ${type}${ time > 1 ? 's' : ''} temu`
+  return ` ${time} ${type} temu`
 }
 
 export default {
